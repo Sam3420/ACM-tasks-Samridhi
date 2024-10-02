@@ -40,7 +40,10 @@ You can find the code for this project in the **Chatbot_LLaMA2_Streamlit** folde
 
 ## Getting Started
 
-### Clustering Model:
+### Chatbot:
 1. Install the necessary libraries:
    ```bash
-   pip install scikit-learn matplotlib
+   !pip install -qq langchain wget llama-index cohere llama-cpp-python
+   !pip -q install streamlit
+   !pip install pyngrok
+   
